@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task lists</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="input-section">
+                <h2>Task List</h2>
+                <form class="form-input">
+                    <input type="text" placeholder="new task" class="new-task">
+                    <div class="btn-light">
+                        <input type="submit" value="Add Task" class="addbtn">
+                    </div>
+                </form>
+            </div>
+            <div class="display-section">
+                <h2>Tasks</h2>
+                <div class="filter-section">
+                    <input type="text" class="filter" placeholder="filter task">
+                </div>
+                <ul class="collection"></ul>
+                <div class="btn-dark">
+                    <a href="#" class="clear-btn">Clear Tasks</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
